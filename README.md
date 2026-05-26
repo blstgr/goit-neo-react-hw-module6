@@ -5,7 +5,7 @@
 ## Посилання
 
 - Репозиторій: https://github.com/blstgr/goit-neo-react-hw-module6
-- Робоча сторінка Vercel: буде додано після деплою
+- Робоча сторінка Vercel: https://goit-neo-react-hw-module6-three-ebon.vercel.app
 
 ## Технології
 
