@@ -1,0 +1,43 @@
+.wrapper {
+  display: grid;
+  gap: 8px;
+}
+
+.label {
+  color: #42526b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.inputWrap {
+  position: relative;
+  display: block;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  color: #64748b;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.input {
+  width: 100%;
+  min-height: 46px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 10px 12px 10px 42px;
+  color: #172033;
+  background-color: rgba(255, 255, 255, 0.92);
+  outline: none;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.input:focus {
+  border-color: #3563ad;
+  box-shadow: 0 0 0 3px rgba(53, 99, 173, 0.16);
+}

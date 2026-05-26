@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  min-width: 0;
+}
+
+.empty {
+  margin: 0;
+  border: 1px dashed #aab7ca;
+  border-radius: 8px;
+  padding: 24px;
+  color: #536173;
+  background-color: rgba(255, 255, 255, 0.72);
+  text-align: center;
+}
